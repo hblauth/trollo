@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+  
+  .body {
+  background-color: lightgray;
+  font-family: "Raleway";
+  }
+  
+ .header {
+  background-color: rgb(80, 227, 194);
+  font-family: "Lobster";
+  color: RGB(255,0,90);
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 8px 4px rgb(16,0,102);
+  }
+  
+ .board{
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
+  background-color: RGB(16,0,102);
+  padding: 10px 0 10px 0;
+  }
+  
+  .list {
+  background-color: RGB(16,0,102);
+  color: white;
+  display: inline;
+  max-width: 25%;
+  flex-grow: 1;
+  }
+  
+  .list_title_container{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 2px;  
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 0 2px 0 2px;
+  flex-grow: 1;
+  margin: 0 0 2px 0;
+  }
+  
+  .list_body{
+  list-style-type: none;
+  }
+  
+  .todoDiv{
+  text-align: left;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 0 4px 0 4px;
+  }
+  
+  #control{
+  text-align: center;
+  padding: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  } */
+  
+#addTodoButton, #initButton{
+  color: RGB(255,0,90);
+  border-style: solid;
+  border-width: 2px;
+  border-color: RGB(16,0,102);
+  background-color: rgb(80, 227, 194); 
+  padding: 2px 2px 2px 2px;
+  font-family: "Lobster";
+  font-weight: bold;
+  text-shadow: 2px 1px RGB(16,0,102);
+  }
+  
+  #initButtonDiv{
+  text-align: center;
+  margin: 50px;
+  }
+  
+  .deleteTodoButton, .deleteListButton{
+  color: white;
+  text-align: right;
+  }
+  
+  /* ul { */
+  /* list-style-image: url(); might have to be a certain file type / size etc.*/ 
+  /* list-style-type: none;
+  } */ 
+  
+  .bullet{
+  height: 15px;
+  }
+  
+  #placeholder{
+  color: white;
+  font-weight: bold;
+  }
+  
+input[type=text]{
+  padding-left: 4px;
+  margin-left: 10px;
+  background-color: white;
+  color: rgb(16, 0, 102);
+  max-width: 30%;
+  }
+  
+  select{
+  margin-left: 10px;
+  background-color: white;
+  color: rgb(16, 0, 102);
+  max-width: 30%;
+  }
+  
+  p{
+  cursor: default;
+  }
+  
+  
+  /* laka colors: 
+  teal RGB (80,227,194)
+  raspberry: RGB(255,0,90)
+  blue: RGB(16,0,102)
+ 
